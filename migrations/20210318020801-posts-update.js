@@ -34,8 +34,8 @@ exports.up = function (db, callback) {
   )
 }
 
-exports.down = function (db, callback) {
-  db.removecolumn("posts", "user_id", callback)
+exports.down = function () {
+  return null
 }
 
 exports._meta = {

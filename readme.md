@@ -7,7 +7,7 @@ commands - https://db-migrate.readthedocs.io/en/latest/Getting%20Started/command
 
 - `db-migrate create [migration name]`
   - create new migration with name
-  - add the `callback` function to the up and down functions to use when calling db functions
+  - add the `callback` function to the up function to use when calling db functions
 - `db-migrate up [migration name]?`
   - run new migrations
 - `db-migrate down [migration name]`
