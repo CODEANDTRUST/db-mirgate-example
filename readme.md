@@ -1,7 +1,12 @@
 # HELPFUL DB-MIGRATE INFO
 
+npm - https://www.npmjs.com/package/db-migrate  
 mysql - https://db-migrate.readthedocs.io/en/latest/API/SQL/  
 commands - https://db-migrate.readthedocs.io/en/latest/Getting%20Started/commands/
+
+# Getting Started
+
+Create a .env file from the sample below. Then run install **db-migrate** with `npm install -g db-migrate`
 
 # CLI Commands
 
