@@ -27,7 +27,7 @@ exports.up = function (db, callback) {
           onDelete: "CASCADE",
           onUpdate: "CASCADE",
         },
-        mapping: { user_id: "id" },
+        mapping: "id",
       },
     },
     callback
